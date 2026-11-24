@@ -1,0 +1,14 @@
+Raw Rows = COUNTROWS(transactions_raw)
+Distinct Transaction IDs = DISTINCTCOUNT(transactions_raw[transaction_id])
+Duplicate Row Excess = [Raw Rows]-[Distinct Transaction IDs]
+Clean Rows = COUNTROWS(transactions_clean)
+Rows With Issues = DISTINCTCOUNT(data_quality_issues[transaction_id])
+Issue Records = COUNTROWS(data_quality_issues)
+Quality Score % = DIVIDE([Clean Rows],[Raw Rows],0)
+Issue Rate % = DIVIDE([Rows With Issues],[Distinct Transaction IDs],0)
+High Severity Issues = CALCULATE(COUNTROWS(data_quality_issues),data_quality_issues[severity]="High")
+Completeness Issues = CALCULATE(COUNTROWS(data_quality_issues),data_quality_issues[dimension]="Completeness")
+Validity Issues = CALCULATE(COUNTROWS(data_quality_issues),data_quality_issues[dimension]="Validity")
+Referential Integrity Issues = CALCULATE(COUNTROWS(data_quality_issues),data_quality_issues[dimension]="Referential Integrity")
+Accuracy Issues = CALCULATE(COUNTROWS(data_quality_issues),data_quality_issues[dimension]="Accuracy")
+-- Issue records can exceed unique affected transactions because one row may fail multiple rules.

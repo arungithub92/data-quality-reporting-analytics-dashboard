@@ -1,0 +1,497 @@
+transaction_id,rule_code,dimension,severity,issue_description
+T000026,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000032,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T000034,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T000039,MISSING_REGION,Completeness,Medium,Region is blank.
+T000039,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000050,MISSING_REGION,Completeness,Medium,Region is blank.
+T000050,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000053,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T000063,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T000064,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T000068,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T000080,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T000081,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T000085,MISSING_REGION,Completeness,Medium,Region is blank.
+T000085,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000104,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T000120,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T000143,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T000148,MISSING_REGION,Completeness,Medium,Region is blank.
+T000148,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000154,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T000162,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000168,MISSING_REGION,Completeness,Medium,Region is blank.
+T000168,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000169,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T000211,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T000225,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T000249,MISSING_REGION,Completeness,Medium,Region is blank.
+T000249,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000252,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T000256,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000257,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T000265,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T000273,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T000275,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T000277,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T000327,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T000363,MISSING_REGION,Completeness,Medium,Region is blank.
+T000363,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000364,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T000368,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T000373,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000378,MISSING_REGION,Completeness,Medium,Region is blank.
+T000378,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000383,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T000384,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T000406,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000471,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T000481,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T000516,MISSING_REGION,Completeness,Medium,Region is blank.
+T000516,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000563,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T000565,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T000571,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T000603,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T000636,MISSING_REGION,Completeness,Medium,Region is blank.
+T000636,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000663,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T000699,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T000706,MISSING_REGION,Completeness,Medium,Region is blank.
+T000706,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000708,MISSING_REGION,Completeness,Medium,Region is blank.
+T000708,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000713,MISSING_REGION,Completeness,Medium,Region is blank.
+T000713,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000721,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T000729,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T000734,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T000740,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T000748,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T000767,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T000823,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T000844,MISSING_REGION,Completeness,Medium,Region is blank.
+T000844,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000852,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T000855,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T000871,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T000872,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T000886,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T000903,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T000907,MISSING_REGION,Completeness,Medium,Region is blank.
+T000907,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000914,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T000929,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T000942,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T000995,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T000998,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T000998,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T001000,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T001001,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T001004,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T001027,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T001033,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T001059,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T001082,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T001095,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T001114,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T001124,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T001187,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T001197,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T001219,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T001228,MISSING_REGION,Completeness,Medium,Region is blank.
+T001228,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T001239,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T001246,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T001251,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T001268,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T001302,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T001311,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T001346,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T001370,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T001373,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T001393,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T001395,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T001400,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T001403,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T001404,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T001424,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T001428,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T001429,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T001451,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T001469,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T001471,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T001473,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T001476,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T001480,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T001489,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T001500,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T001502,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T001520,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T001524,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T001530,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T001544,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T001582,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T001588,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T001594,MISSING_REGION,Completeness,Medium,Region is blank.
+T001594,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T001605,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T001656,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T001656,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T001689,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T001694,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T001704,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T001707,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T001717,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T001723,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T001741,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T001744,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T001785,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T001805,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T001806,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T001855,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T001868,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T001872,MISSING_REGION,Completeness,Medium,Region is blank.
+T001872,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T001873,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T001904,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T001913,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T001914,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T001918,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T001920,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T001949,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T001966,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T001972,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T001980,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T001996,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T002003,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T002018,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T002038,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T002044,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T002046,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T002060,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T002065,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T002084,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T002101,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T002110,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T002121,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T002141,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T002173,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T002196,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T002206,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T002219,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T002260,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T002276,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T002295,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T002321,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T002332,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T002345,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T002351,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T002353,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T002358,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T002362,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T002370,MISSING_REGION,Completeness,Medium,Region is blank.
+T002370,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T002384,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T002400,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T002475,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T002485,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T002488,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T002489,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T002509,MISSING_REGION,Completeness,Medium,Region is blank.
+T002509,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T002514,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T002525,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T002530,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T002551,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T002591,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T002592,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T002593,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T002614,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T002616,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T002628,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T002640,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T002654,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T002662,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T002694,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T002704,MISSING_REGION,Completeness,Medium,Region is blank.
+T002704,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T002710,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T002712,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T002713,MISSING_REGION,Completeness,Medium,Region is blank.
+T002713,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T002721,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T002751,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T002755,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T002786,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T002795,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T002821,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T002821,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T002823,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T002852,MISSING_REGION,Completeness,Medium,Region is blank.
+T002852,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T002907,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T002914,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T002920,MISSING_REGION,Completeness,Medium,Region is blank.
+T002920,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T002928,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T002940,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T002944,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T002948,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T002958,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T002997,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T003003,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T003008,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T003015,MISSING_REGION,Completeness,Medium,Region is blank.
+T003015,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003059,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T003065,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T003073,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T003074,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T003075,MISSING_REGION,Completeness,Medium,Region is blank.
+T003075,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003088,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T003100,MISSING_REGION,Completeness,Medium,Region is blank.
+T003100,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003102,MISSING_REGION,Completeness,Medium,Region is blank.
+T003102,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003107,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T003126,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T003131,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T003134,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003142,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T003162,MISSING_REGION,Completeness,Medium,Region is blank.
+T003162,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003164,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003174,MISSING_REGION,Completeness,Medium,Region is blank.
+T003174,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003180,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T003182,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T003194,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T003212,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T003236,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T003243,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T003262,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T003272,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T003275,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T003277,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T003280,MISSING_REGION,Completeness,Medium,Region is blank.
+T003280,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003289,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T003300,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T003302,MISSING_REGION,Completeness,Medium,Region is blank.
+T003302,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003307,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T003332,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T003335,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T003336,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T003345,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T003345,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T003352,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T003359,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T003370,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T003371,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T003396,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T003404,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T003406,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T003411,MISSING_REGION,Completeness,Medium,Region is blank.
+T003411,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003428,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T003437,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003441,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T003466,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T003468,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003470,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T003487,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T003491,MISSING_REGION,Completeness,Medium,Region is blank.
+T003491,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003510,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T003512,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T003525,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T003542,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T003543,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T003549,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T003565,MISSING_REGION,Completeness,Medium,Region is blank.
+T003565,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003577,MISSING_REGION,Completeness,Medium,Region is blank.
+T003577,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003585,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T003610,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T003617,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T003622,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T003638,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T003645,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T003656,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003660,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T003707,MISSING_REGION,Completeness,Medium,Region is blank.
+T003707,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003713,MISSING_REGION,Completeness,Medium,Region is blank.
+T003713,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003724,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T003773,MISSING_REGION,Completeness,Medium,Region is blank.
+T003773,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003812,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T003821,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T003838,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003845,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T003876,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T003884,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T003898,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T003905,MISSING_REGION,Completeness,Medium,Region is blank.
+T003905,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003906,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T003913,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003923,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T003951,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T003966,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T003983,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T003997,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T003998,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T004070,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004081,MISSING_REGION,Completeness,Medium,Region is blank.
+T004081,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004107,MISSING_REGION,Completeness,Medium,Region is blank.
+T004107,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004123,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T004124,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T004127,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T004128,MISSING_REGION,Completeness,Medium,Region is blank.
+T004128,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004129,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T004139,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T004164,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T004191,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T004225,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T004234,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004270,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004280,MISSING_REGION,Completeness,Medium,Region is blank.
+T004280,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004301,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T004313,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T004344,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T004344,MISSING_REGION,Completeness,Medium,Region is blank.
+T004351,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T004383,MISSING_REGION,Completeness,Medium,Region is blank.
+T004383,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004479,SALES_AMOUNT_MISMATCH,Accuracy,High,Sales amount differs from quantity multiplied by unit price.
+T004509,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004512,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T004535,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T004563,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004584,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T004604,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T004625,MISSING_REGION,Completeness,Medium,Region is blank.
+T004625,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004647,MISSING_REGION,Completeness,Medium,Region is blank.
+T004647,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004650,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T004699,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T004701,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T004714,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T004720,MISSING_REGION,Completeness,Medium,Region is blank.
+T004720,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004726,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T004735,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T004746,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T004760,MISSING_REGION,Completeness,Medium,Region is blank.
+T004760,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004763,MISSING_REGION,Completeness,Medium,Region is blank.
+T004763,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004790,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T004809,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T004810,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T004823,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T004834,INVALID_QUANTITY,Validity,High,Quantity must be a positive integer.
+T004841,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004845,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T004855,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T004864,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T004867,MISSING_REGION,Completeness,Medium,Region is blank.
+T004867,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004900,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004903,INVALID_PRODUCT_KEY,Referential Integrity,High,Product ID not found in reference table.
+T004907,INVALID_CUSTOMER_KEY,Referential Integrity,High,Customer ID not found in reference table.
+T004925,MISSING_SALES_AMOUNT,Completeness,High,Sales amount is blank.
+T004948,INVALID_UNIT_PRICE,Validity,High,Unit price must be positive.
+T004960,MISSING_REGION,Completeness,Medium,Region is blank.
+T004960,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004978,MISSING_CUSTOMER_ID,Completeness,High,Customer ID is blank.
+T004990,MISSING_REGION,Completeness,Medium,Region is blank.
+T004990,NONSTANDARD_REGION,Consistency,Medium,Region differs from customer reference; canonical value applied.
+T004995,NONSTANDARD_CATEGORY,Consistency,Medium,Category differs from product reference; canonical value applied.
+T001183,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T000806,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003361,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T002604,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004207,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003754,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T002433,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003297,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T002688,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T002594,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004157,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T002393,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T001018,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T000633,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003096,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003935,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T001003,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T002488,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T000686,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003625,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004025,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003979,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003880,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004202,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003957,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003285,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004769,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003630,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004340,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T000203,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T001349,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T002410,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T002234,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T002524,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004901,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T000393,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004039,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004743,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T001027,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003897,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003732,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003540,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T002043,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T000110,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003149,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004441,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T001787,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T001452,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T002370,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T002369,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004006,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T001093,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T000985,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T001380,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T002054,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003255,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004512,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004296,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004142,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004584,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T000627,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T001566,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T002819,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004515,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003835,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T001696,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003283,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T003201,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T000505,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T001100,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004123,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004491,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T000012,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T004602,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.
+T000123,DUPLICATE_TRANSACTION_ID,Uniqueness,High,Duplicate transaction ID; first occurrence retained.

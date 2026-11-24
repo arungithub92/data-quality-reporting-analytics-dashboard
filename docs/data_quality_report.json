@@ -1,0 +1,23 @@
+{
+  "raw_rows": 5075,
+  "unique_transaction_ids": 5000,
+  "duplicate_rows": 75,
+  "clean_rows": 4637,
+  "rows_with_one_or_more_issues": 432,
+  "issue_records": 496,
+  "quality_score_pct": 91.37,
+  "rule_counts": {
+    "NONSTANDARD_REGION": 92,
+    "MISSING_SALES_AMOUNT": 45,
+    "SALES_AMOUNT_MISMATCH": 35,
+    "MISSING_REGION": 54,
+    "MISSING_CUSTOMER_ID": 65,
+    "INVALID_UNIT_PRICE": 20,
+    "NONSTANDARD_CATEGORY": 30,
+    "INVALID_PRODUCT_KEY": 35,
+    "INVALID_CUSTOMER_KEY": 20,
+    "INVALID_QUANTITY": 25,
+    "DUPLICATE_TRANSACTION_ID": 75
+  },
+  "quality_score_definition": "clean_rows / raw_rows"
+}

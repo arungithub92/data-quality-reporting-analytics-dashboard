@@ -1,0 +1,41 @@
+product_id,product_name,category,standard_price
+P0001,Product 01,Home & Kitchen,10917.65
+P0002,Product 02,Electronics,20346.07
+P0003,Product 03,Books & Stationery,15825.64
+P0004,Product 04,Home & Kitchen,3961.33
+P0005,Product 05,Home & Kitchen,22354.29
+P0006,Product 06,Books & Stationery,16560.33
+P0007,Product 07,Fashion,18766.16
+P0008,Product 08,Electronics,13390.31
+P0009,Product 09,Home & Kitchen,11760.73
+P0010,Product 10,Books & Stationery,18256.41
+P0011,Product 11,Books & Stationery,12176.82
+P0012,Product 12,Fashion,23192.09
+P0013,Product 13,Fashion,137.62
+P0014,Product 14,Books & Stationery,23163.46
+P0015,Product 15,Fashion,5445.6
+P0016,Product 16,Home & Kitchen,18228.36
+P0017,Product 17,Electronics,8859.11
+P0018,Product 18,Home & Kitchen,6181.5
+P0019,Product 19,Electronics,15744.92
+P0020,Product 20,Home & Kitchen,10610.19
+P0021,Product 21,Home & Kitchen,2980.71
+P0022,Product 22,Fashion,8286.95
+P0023,Product 23,Electronics,3492.37
+P0024,Product 24,Home & Kitchen,1759.01
+P0025,Product 25,Books & Stationery,24147.53
+P0026,Product 26,Fashion,16635.97
+P0027,Product 27,Books & Stationery,16595.91
+P0028,Product 28,Home & Kitchen,9263.5
+P0029,Product 29,Fashion,15208.7
+P0030,Product 30,Books & Stationery,16087.39
+P0031,Product 31,Books & Stationery,5013.76
+P0032,Product 32,Books & Stationery,20285.9
+P0033,Product 33,Electronics,20658.73
+P0034,Product 34,Electronics,17357.34
+P0035,Product 35,Books & Stationery,16490.73
+P0036,Product 36,Fashion,13084.4
+P0037,Product 37,Home & Kitchen,22449.3
+P0038,Product 38,Books & Stationery,9080.19
+P0039,Product 39,Fashion,16547.56
+P0040,Product 40,Home & Kitchen,10491.54
